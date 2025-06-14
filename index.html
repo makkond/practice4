@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Практична робота 1</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Практична робота 4: Робота з DOM та подіями</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    #taskList li {
+      cursor: pointer;
+      padding: 5px;
+    }
+    #taskList li:hover {
+      background-color: #f0f0f0;
+    }
+  </style>
 </head>
 <body>
-  <h1>Практична робота №1: Основи JavaScript</h1>
+  <h1>Практична робота №4: Робота з DOM та подіями</h1>
+  <div>
+    <input type="text" id="taskInput" placeholder="Введіть завдання">
+    <button id="addTask">Додати завдання</button>
+  </div>
+  <ul id="taskList"></ul>
+
   <script src="script.js"></script>
 </body>
 </html>
